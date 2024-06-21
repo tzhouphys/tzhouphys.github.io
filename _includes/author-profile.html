@@ -34,10 +34,13 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>taozhou@tamu.edu</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
+      {% if author.inspire %}
+      <li><a href="{{ author.inspire }}"><i class="ai ai-inspire ai-fw icon-pad-right" aria-hidden="true"></i>Inspire-HEP</a></li>
+      {% endif %}
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
