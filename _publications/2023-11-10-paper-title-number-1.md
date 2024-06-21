@@ -1,9 +1,9 @@
 ---
 title: "Broad sterile neutrinos & the reactor/gallium tension"
 collection: publications
-permalink: /publication/2024-number-1
+permalink: /publication/2023-11-10-number-1
 excerpt: 'JHEP 04 (2024) 096'
-date: 2023
+date: 2023-11-10
 venue: 'Journal 1'
 slidesurl: 
 paperurl: 'https://arxiv.org/pdf/2311.06352'
