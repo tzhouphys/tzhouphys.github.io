@@ -12,16 +12,16 @@ Just like the tau neutrino, I occasionally oscillate — between research and ho
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; max-width: 800px;">
   <!-- Left column: Photo 1 -->
   <div>
-      <img src="/images/IMG_9155.jpg" alt="Photo 3" style="width: 100%; border-radius: 5px;">
+      <img src="/images/IMG_9155.JPG" alt="Photo 3" style="width: 100%; border-radius: 5px;">
   </div>
   
   <!-- Right column: Photos 2 and 3 stacked -->
   <div style="display: flex; flex-direction: column; gap: 15px;">
     <div>
-      <img src="/images/IMG_3826.jpg" alt="Photo 2" style="width: 100%; border-radius: 5px;">
+      <img src="/images/IMG_3826.JPG" alt="Photo 2" style="width: 100%; border-radius: 5px;">
     </div>
     <div>
-    <img src="/images/314C50AB-3F23-465F-8BE1-320BF540C74A.jpg" alt="Photo 1" style="width: 100%; border-radius: 5px;">
+    <img src="/images/314C50AB-3F23-465F-8BE1-320BF540C74A.JPG" alt="Photo 1" style="width: 100%; border-radius: 5px;">
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@ Ask me about my homemade surfboard!
   <!-- Right column: Photos 4, 5, 6 -->
   <div style="flex: 1; display: flex; flex-direction: column;">
     <div style="margin-bottom: 15px;">
-      <img src="/images/IMG_4576.png" alt="Peak view" style="width: 100%; border-radius: 5px;">
+      <img src="/images/IMG_4576.PNG" alt="Peak view" style="width: 100%; border-radius: 5px;">
     </div>
     <div style="margin-bottom: 15px;">
       <img src="/images/IMG_4577.jpg" alt="Mountain panorama" style="width: 100%; border-radius: 5px;">
