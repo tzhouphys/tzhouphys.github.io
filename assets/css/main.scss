@@ -39,3 +39,40 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Custom styles for larger profile photo and bio info */
+.author__avatar img {
+  max-width: 200px !important;  /* Increase from default ~110px */
+  border-radius: 50%;
+}
+
+.author__content {
+  font-size: 1.1em !important;  /* Make text 10% larger */
+}
+
+.author__name {
+  font-size: 1.4em !important;  /* Make name larger */
+  font-weight: bold;
+}
+
+.author__bio {
+  font-size: 1.05em !important;  /* Slightly larger bio text */
+  margin-top: 0.5em;
+}
+
+.author__urls {
+  font-size: 1em !important;  /* Keep social links readable */
+}
+
+/* Make the entire sidebar wider on larger screens */
+@media (min-width: 80em) {
+  .sidebar {
+    width: 300px !important;  /* Increase from default ~200px */
+  }
+  
+  .page {
+    float: right;
+    width: calc(100% - 320px) !important;  /* Adjust content area */
+    padding-left: 20px;
+  }
+}
