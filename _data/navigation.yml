@@ -8,3 +8,9 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "Outdoors"
+    url: /outdoors/
+
+  - title: "Analog"
+    url: /analog/
