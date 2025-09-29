@@ -8,16 +8,16 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+    	<img src="{{ author.avatar }}" alt="{{ author.name }}" style="max-width: 200px !important; border-radius: 50%;">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" style="max-width: 200px !important; border-radius: 50%;">
     {% endif %}
   </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+  <div class="author__content" style="font-size: 1.1em;">
+    <h3 class="author__name" style="font-size: 1.4em; font-weight: bold;">{{ author.name }}</h3>
+    {% if author.pronouns %}<p class="author__pronouns" style="font-size: 1.05em;">{{ author.pronouns }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio" style="font-size: 1.05em; margin-top: 0.5em;">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
